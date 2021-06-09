@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Searchify</title>
+        <link rel="shortcut icon" type="image/jpg" href="S_Favicon.png"/>
+        <style>
+            body{
+                margin:0;
+                background-size: cover;
+            }
+            nav{
+                position:relative;
+            }
+            menu{
+                list-style-type: none;
+                padding:10px;
+                margin:0;
+                background-color: darkblue;
+                width:100%;
+                position: fixed;
+                top:0;
+                color:white;
+                box-shadow: 0px 5px 5px gray;
+                font-size: 30px;
+                margin-left: -1px;
+            }
+            menu .title{
+                text-align: center;
+                width:100%;
+                margin-top:-30px;
+            }
+            .text{
+                text-align: center;
+            }
+            .title{
+                font-family:cursive;
+                color:aqua;
+            }
+            @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer{
+    margin-top: 250px;
+    text-align: center;
+}
+        </style>
+    </head>
+    <body>
+        <div class=text>
+        <h1 class=title><img src="Ser.png" height="300px" width="300px"></h1>
+    </div>
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+            <img src="https://cdn1.iconfinder.com/data/icons/flat-web-browser/100/search-512.png" height="12px" width="12px">
+          </button>
+        </div>
+     </div>
+     <div class="footer">
+        <p><a href="https://www.youtube.com./watch?v=2942BB1JXFk">Contact us</a></p>
+     </div>
+    </body>
+</html>
